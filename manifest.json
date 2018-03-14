@@ -1,0 +1,24 @@
+{
+    "author": "Plugtopus Agency",
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "content_scripts": [{
+        "css": ["css/epic.css"],
+        "js": ["js/jquery.min.js", "js/ddpowerzoomer.js", "js/content.js"],
+        "matches": ["*://*.facebook.com/*"]
+    }],
+    "homepage_url": "https://plugtopus.agency",
+    "default_locale": "ru",
+    "description": "__MSG_desc__",
+    "icons": {
+        "128": "icons/icon2_128.png",
+        "16": "icons/icon2_16.png"
+    },
+    "manifest_version": 2,
+    "name": "__MSG_name__",
+    "permissions": ["*://*.facebook.com/*", "tabs"],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "14.3.18.1",
+    "web_accessible_resources": ["img/try.png", "img/try2.png"]
+}
